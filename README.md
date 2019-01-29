@@ -12,14 +12,14 @@ The code was tested on:
 The code includes printing data to serial monitor and to the 2x16 LCD display.
 
 Data printed to serial monitor:
-- Year - first 2 digits are hardcoded, but it won't make any difference until 2100;)
+- Year - first 2 digits are hardcoded, but it won't make any difference until 2100 ;)
 - Month
 - Day
 - Day of week - 1 is Sunday
-- Hour - based on clock type it's 12h or 24h
+- Hour - based on clock type it's 12h (AM/PM) or 24h
 - Minute
 - Second
-- Temperature of DS3231
+- Temperature of DS3231 chipset
 - Oscillator check indicator
 - Data from both alarms:
     - Day
