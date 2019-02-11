@@ -1,5 +1,7 @@
 # Display_time_on_LCD
 
+The code displays the date and time on the HD44780 LCD display based on DS3231 RTC.
+
 This code is based on default DS3231_test sample code created by Eric Ayars included in DS3231 library.
 Modifications made by Przemyslaw Kepka.
 
