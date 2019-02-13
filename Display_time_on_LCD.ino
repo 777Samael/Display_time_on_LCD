@@ -53,7 +53,12 @@ void loop() {
   Serial.print(' ');
   Serial.print(Clock.getMinute(), DEC);
   Serial.print(' ');
-  Serial.print(Clock.getSecond(), DEC);
+  if (Clock.getSecond() < 10) {
+    Serial.print("0");
+    Serial.print(Clock.getSecond(), DEC);
+  } else {
+    Serial.print(Clock.getSecond(), DEC);
+  }
   // Add AM/PM indicator
   if (h12) {
     if (PM) {
@@ -172,7 +177,12 @@ void loop() {
   lcd.print(":");
   lcd.print(Clock.getMinute(), DEC);
   lcd.print(":");
-  lcd.print(Clock.getSecond(), DEC);
+  if (Clock.getSecond() < 10) {
+    lcd.print(0, DEC);
+    lcd.print(Clock.getSecond(), DEC);
+  } else {
+    lcd.print(Clock.getSecond(), DEC);
+  }
   
   delay(1000);
 }
