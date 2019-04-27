@@ -23,7 +23,7 @@ void setup() {
 }
 
 void loop() {
-  
+
   // Print to the serial monitor.
   // YEAR
   Serial.print("Year ");
