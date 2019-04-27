@@ -1,4 +1,4 @@
-# Display_time_on_LCD
+# Display time on LCD - Arduino
 
 The code displays the date and time on the HD44780 LCD display based on DS3231 RTC.
 
